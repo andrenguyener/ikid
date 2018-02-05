@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Joke 2-->
+        <!--Pun-->
         <scene sceneID="8lS-e7-dQN">
             <objects>
                 <viewController id="pdD-cF-A81" customClass="Joke2ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HNz-gU-TaZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Joke 2" id="KB0-GR-whz"/>
+                    <tabBarItem key="tabBarItem" title="Pun" id="KB0-GR-whz"/>
                     <connections>
                         <outlet property="changeButton" destination="Ogx-2c-66f" id="Ttb-wS-cXB"/>
                         <outlet property="jokeText" destination="Pmm-Wv-3k2" id="lFx-Cy-qyb"/>
@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="127" y="711"/>
         </scene>
-        <!--Joke 3-->
+        <!--Dad-->
         <scene sceneID="x5Z-U1-H5Y">
             <objects>
                 <viewController id="ptr-vX-6oH" customClass="Joke3ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,7 +92,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b2T-rT-XAe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Joke 3" id="WzV-IA-aJo"/>
+                    <tabBarItem key="tabBarItem" title="Dad" id="WzV-IA-aJo"/>
                     <connections>
                         <outlet property="changeButton" destination="sKO-3v-xp5" id="zbF-dE-Q11"/>
                         <outlet property="jokeText" destination="aYd-6f-XwL" id="tNz-wf-Bs6"/>
@@ -102,7 +102,7 @@
             </objects>
             <point key="canvasLocation" x="1099" y="450"/>
         </scene>
-        <!--Joke 1-->
+        <!--Good-->
         <scene sceneID="jcy-yz-d5G">
             <objects>
                 <viewController id="jKG-Ii-caf" customClass="Joke1ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
@@ -138,7 +138,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d6b-mn-AQp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Joke 1" id="Edy-4j-ith"/>
+                    <tabBarItem key="tabBarItem" title="Good" id="Edy-4j-ith"/>
                     <connections>
                         <outlet property="changeButton" destination="vap-5I-J12" id="Z12-q2-f86"/>
                         <outlet property="jokeText" destination="1qO-hi-do2" id="yyr-dk-pZp"/>
