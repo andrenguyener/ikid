@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CTX-PO-hqH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Joke 2-->
+        <scene sceneID="8lS-e7-dQN">
+            <objects>
+                <viewController id="pdD-cF-A81" customClass="Joke2ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h7v-40-suT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My wife told me to take a spider out instead of killing it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmm-Wv-3k2">
+                                <rect key="frame" x="15" y="283.5" width="345" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4E6-eb-4tv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogx-2c-66f">
+                                <rect key="frame" x="333" y="578" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="changeButtonPressed:" destination="pdD-cF-A81" eventType="touchUpInside" id="f0D-my-PKp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pmm-Wv-3k2" firstAttribute="centerY" secondItem="h7v-40-suT" secondAttribute="centerY" id="6Xd-WQ-cqV"/>
+                            <constraint firstItem="HNz-gU-TaZ" firstAttribute="bottom" secondItem="Ogx-2c-66f" secondAttribute="bottom" constant="10" id="Sel-y9-lk7"/>
+                            <constraint firstItem="HNz-gU-TaZ" firstAttribute="trailing" secondItem="Pmm-Wv-3k2" secondAttribute="trailing" constant="15" id="hGY-EM-g8M"/>
+                            <constraint firstItem="HNz-gU-TaZ" firstAttribute="trailing" secondItem="Ogx-2c-66f" secondAttribute="trailing" constant="10" id="rbB-Sv-Fwy"/>
+                            <constraint firstItem="Pmm-Wv-3k2" firstAttribute="leading" secondItem="HNz-gU-TaZ" secondAttribute="leading" constant="15" id="sLc-Z0-jjr"/>
+                            <constraint firstItem="Pmm-Wv-3k2" firstAttribute="centerX" secondItem="h7v-40-suT" secondAttribute="centerX" id="ycG-wv-U5J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HNz-gU-TaZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Joke 2" id="KB0-GR-whz"/>
+                    <connections>
+                        <outlet property="changeButton" destination="Ogx-2c-66f" id="Ttb-wS-cXB"/>
+                        <outlet property="jokeText" destination="Pmm-Wv-3k2" id="lFx-Cy-qyb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJh-x6-w2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="711"/>
+        </scene>
+        <!--Joke 3-->
+        <scene sceneID="x5Z-U1-H5Y">
+            <objects>
+                <viewController id="ptr-vX-6oH" customClass="Joke3ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wgG-EJ-CDP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad, did you get shot in the army?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYd-6f-XwL">
+                                <rect key="frame" x="15" y="283.5" width="345" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ogG-ub-2pj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKO-3v-xp5">
+                                <rect key="frame" x="333" y="578" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="changeButtonPressed:" destination="ptr-vX-6oH" eventType="touchUpInside" id="fkM-UO-sup"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aYd-6f-XwL" firstAttribute="centerY" secondItem="wgG-EJ-CDP" secondAttribute="centerY" id="6BC-iC-8G1"/>
+                            <constraint firstItem="aYd-6f-XwL" firstAttribute="leading" secondItem="b2T-rT-XAe" secondAttribute="leading" constant="15" id="CxK-cC-2Zm"/>
+                            <constraint firstItem="b2T-rT-XAe" firstAttribute="trailing" secondItem="sKO-3v-xp5" secondAttribute="trailing" constant="10" id="MYy-ww-FKu"/>
+                            <constraint firstItem="b2T-rT-XAe" firstAttribute="trailing" secondItem="aYd-6f-XwL" secondAttribute="trailing" constant="15" id="eF2-XW-3VM"/>
+                            <constraint firstItem="b2T-rT-XAe" firstAttribute="bottom" secondItem="sKO-3v-xp5" secondAttribute="bottom" constant="10" id="jh3-m5-aag"/>
+                            <constraint firstItem="aYd-6f-XwL" firstAttribute="centerX" secondItem="wgG-EJ-CDP" secondAttribute="centerX" id="m53-SF-rBN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b2T-rT-XAe"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Joke 3" id="WzV-IA-aJo"/>
+                    <connections>
+                        <outlet property="changeButton" destination="sKO-3v-xp5" id="zbF-dE-Q11"/>
+                        <outlet property="jokeText" destination="aYd-6f-XwL" id="tNz-wf-Bs6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DdI-U9-tZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="450"/>
+        </scene>
+        <!--Joke 1-->
+        <scene sceneID="jcy-yz-d5G">
+            <objects>
+                <viewController id="jKG-Ii-caf" customClass="Joke1ViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o8k-QV-gRi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vap-5I-J12">
+                                <rect key="frame" x="333" y="578" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="changeButtonPressed:" destination="jKG-Ii-caf" eventType="touchUpInside" id="uS1-tu-dU2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why does Helen Keller's husband always yell at her?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qO-hi-do2">
+                                <rect key="frame" x="15" y="283.5" width="345" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PgF-rK-d9L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1qO-hi-do2" firstAttribute="centerY" secondItem="o8k-QV-gRi" secondAttribute="centerY" id="3Xe-k0-mxe"/>
+                            <constraint firstItem="d6b-mn-AQp" firstAttribute="bottom" secondItem="vap-5I-J12" secondAttribute="bottom" constant="10" id="4gm-fK-12B"/>
+                            <constraint firstItem="1qO-hi-do2" firstAttribute="centerX" secondItem="o8k-QV-gRi" secondAttribute="centerX" id="7bQ-tg-c5z"/>
+                            <constraint firstItem="1qO-hi-do2" firstAttribute="leading" secondItem="o8k-QV-gRi" secondAttribute="leading" constant="15" id="7rg-aN-aby"/>
+                            <constraint firstItem="d6b-mn-AQp" firstAttribute="trailing" secondItem="vap-5I-J12" secondAttribute="trailing" constant="10" id="ArO-ex-kE7"/>
+                            <constraint firstAttribute="trailing" secondItem="1qO-hi-do2" secondAttribute="trailing" constant="15" id="YYg-0Z-FrX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d6b-mn-AQp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Joke 1" id="Edy-4j-ith"/>
+                    <connections>
+                        <outlet property="changeButton" destination="vap-5I-J12" id="Z12-q2-f86"/>
+                        <outlet property="jokeText" destination="1qO-hi-do2" id="yyr-dk-pZp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRR-Mg-aVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="19"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tOy-Q3-bpL">
+            <objects>
+                <tabBarController id="CTX-PO-hqH" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vyc-N4-jJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jKG-Ii-caf" kind="relationship" relationship="viewControllers" id="1hg-u5-7gM"/>
+                        <segue destination="pdD-cF-A81" kind="relationship" relationship="viewControllers" id="rWa-Gr-SLC"/>
+                        <segue destination="ptr-vX-6oH" kind="relationship" relationship="viewControllers" id="P8T-TV-x7O"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYN-mj-BNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-886" y="362"/>
+        </scene>
+    </scenes>
+</document>
